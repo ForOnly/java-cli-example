@@ -1,5 +1,5 @@
 # JAVA CLI DEMO
-
+使用java实现cli命令工具
 ## USING
 
 将项目进行编译打包，
