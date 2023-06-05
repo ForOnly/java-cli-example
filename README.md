@@ -1,5 +1,7 @@
 # JAVA CLI DEMO
+
 使用java实现cli命令工具
+
 ## USING
 
 将项目进行编译打包，
@@ -21,3 +23,7 @@ java -jar clidemo.jar -version
 ```
 
 也可以为了方便，自行编写windows环境下的bat脚本
+
+## 参考
+
+[apktool](https://github.com/iBotPeaches/Apktool/blob/master/brut.apktool/apktool-cli/src/main/java/brut/apktool/Main.java)

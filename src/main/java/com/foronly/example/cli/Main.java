@@ -44,11 +44,12 @@ public class Main {
 		if (!cmdFound) {
 			if (commandLine.hasOption("version")) {
 				_version();
-				System.exit(0);
 			} else {
-				usage();
+				// usage();
+				_version();
 			}
 		}
+		System.exit(0);
 	}
 
 	private final static Options allOptions;
